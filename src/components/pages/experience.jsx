@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Row, Col, } from "reactstrap";
 import { HeightDiv, PageDiv } from "../styling/common-elements";
+import Deleptual from '../../assets/cropped-logo.png'
 
 const Experience = ( ) => {
 
@@ -10,9 +11,9 @@ const Experience = ( ) => {
         <HeightDiv>
             <PageDiv>
                 <Row>
-                    <Col>
+                    <Col style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                         <h3>
-                            Overview
+                            Overview 
                         </h3> 
                         
                         <p>
@@ -29,14 +30,14 @@ const Experience = ( ) => {
                         </p>
                         <br/>
                         <h3>
-                            Deleptual
+                            Company
                         </h3>
                         
                         <p>
                             Deleptual is a software consulting company based in Toronto, specializing in making virtual escape puzzle games. Founded in 2020 by Eric Blanchard,
                              Deleptual thrives in the era of virtual connection. 
                         </p>
-                        <br/>
+                        <img src={Deleptual} width="25%"/>
                         <br/>
                         <h3>
                             Job Description
@@ -46,6 +47,7 @@ const Experience = ( ) => {
                             became the web-application developer on our small team. Prior to this, I had very little experience in Javascript or any other frameworks, so I 
                             had to start with tutorials and very small tasks. 
                         </p>
+                        <br/>
                         <h3>
                             Goals
                         </h3>
@@ -86,6 +88,9 @@ const Experience = ( ) => {
                             Thank you to Eric for being a great mentor to me throughout my co-op. I always felt appreciated and recognized for my work,
                              and I am really grateful for how preparation for my next co-op / role in a work place was always encouraged and supported! 
                         </p>
+                        <br/>
+                        <br/>
+                        <br/>
 
                     </Col>
                 </Row>
