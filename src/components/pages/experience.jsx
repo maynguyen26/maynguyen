@@ -14,7 +14,7 @@ const Experience = ( ) => {
                         <h3>
                             Overview
                         </h3> 
-                        <br/>
+                        
                         <p>
                             Starting in May of 2023, I had my very first co-op work term with a company called Deleptual. 
                             Being apart of a small team at Deleptual as a Junior Programmer gave me the opportunity to learn 
@@ -31,9 +31,62 @@ const Experience = ( ) => {
                         <h3>
                             Deleptual
                         </h3>
+                        
                         <p>
-
+                            Deleptual is a software consulting company based in Toronto, specializing in making virtual escape puzzle games. Founded in 2020 by Eric Blanchard,
+                             Deleptual thrives in the era of virtual connection. 
                         </p>
+                        <br/>
+                        <br/>
+                        <h3>
+                            Job Description
+                        </h3>
+                        <p>
+                            At Deleptual, I worked as a Junior Programmer. Since I wanted to focus on learning React and I had an aptitude for web design, my role quickly 
+                            became the web-application developer on our small team. Prior to this, I had very little experience in Javascript or any other frameworks, so I 
+                            had to start with tutorials and very small tasks. 
+                        </p>
+                        <h3>
+                            Goals
+                        </h3>
+                        <p>
+                            As my first work term, I found it most important for me to work hard to improve my technological literacy. 
+                            With so much to learn, I found it very easy to develop my goals revolving my work tasks. I had three main learning goals for my work term. 
+
+                            <br/>
+                            <br/>
+                            Most importantly, I wanted to learn about web application development using React, which helped me build valuable skills related to the programming field. 
+                            As the second most popular framework of 2022, I was excited to learn React and develop very relevant skills for the modern programming landscape.
+                             Even if my next work experience does not directly use React, I know I will greatly benefit from learning 
+                            React during my work term - due to the independent learning skills I developed, as well as practice of core programming concepts. 
+                             In addition, I strived to 
+                             develop effective oral and written communication skills throughout my co-op term through various mediums - such as through the appropriate work 
+                             channel on Discord, pull requests, commit messages and verbally during team meetings. Overall, I wanted to have a better understanding of the 
+                             game and web development industry as a whole.
+                             <br/>
+                             <br/>
+                             Being a part of small team, I was really lucky to have a strong relationship with my supervisor, and it was clear my learning goals and needs were 
+                             made a priority. During my work term, I am grateful to have had the opportunity to have mentored coding sessions and I was 
+                             given a lot of support when I had questions. The support I had accelerated my ability to learn greatly, and I was able to be trusted with an independent 
+                             React project towards the second half of my work term. 
+                        </p>
+                        <br/>
+                        <h3>
+                            Conclusion
+                        </h3>
+                        <p>
+                            I learned so much from my work term at Deleptual as a Junior Programmer and I had a great experience there. 
+                            I am proud to have been a part of such a welcoming and amazing company! 
+                        </p>
+                        <br/>
+                        <h3>
+                            Acknowledgements
+                        </h3>
+                        <p>
+                            Thank you to Eric for being a great mentor to me throughout my co-op. I always felt appreciated and recognized for my work,
+                             and I am really grateful for how preparation for my next co-op / role in a work place was always encouraged and supported! 
+                        </p>
+
                     </Col>
                 </Row>
             </PageDiv>
