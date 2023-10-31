@@ -1,19 +1,11 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import WebFont from 'webfontloader';
 import { Row, Col, Button } from 'reactstrap';
 import { Colors } from '../styling/common-elements';
 import Icon from '../../assets/Icon.png';
+import Resume from '../../assets/MayNguyenResume.pdf'
 
 const Home = () => { 
-
-    useEffect(() => {
-        WebFont.load({
-          google: {
-            families: ['Arbutus Slab']
-          }
-        });
-       }, []);
 
     return (
         <>
@@ -33,17 +25,17 @@ const Home = () => {
                     <Col lg="12">
                        <Row>
                            <PrimaryButton>
-                                <ButtonP style={{color: "white"}}>
+                                <ButtonP style={{color: "white"}} onClick={() => { window.open(Resume, '_blank')}}>
                                     Resume
                                 </ButtonP>
                            </PrimaryButton>
                            <PrimaryButton>
-                                <ButtonP style={{color: "white"}}>
+                                <ButtonP style={{color: "white"}} onClick={() => { window.open("", '_blank')}}>
                                     GitHub
                                 </ButtonP>
                            </PrimaryButton>
                            <PrimaryButton>
-                                <ButtonP style={{color: "white"}}>
+                                <ButtonP style={{color: "white"}} onClick={() => { window.open("https://www.linkedin.com/in/mnguye/", '_blank')}}>
                                     Linkedin
                                 </ButtonP>
                            </PrimaryButton>
@@ -93,7 +85,7 @@ const CenterRow = styled(Row)`
 const Title = styled.h1`
     font-weight: normal;
     font-size: 48px;
-    font-family: "Arbutus Slab";
+    font-family: Arbutus Slab;
     color: ${Colors.primaryFont};
     margin-bottom: 30px;
 `
@@ -109,7 +101,7 @@ const Subtitle = styled.p`
 const ButtonP = styled.p`
     font-weight: bold;
     font-size: 16px;
-    font-family: "Arbutus Slab";
+    font-family: ArbutusSlab;
     color: ${Colors.primaryFont};
     margin: 5px;
 `

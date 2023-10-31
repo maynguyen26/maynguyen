@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import WebFont from 'webfontloader';
 import { Colors, NavItems } from './styling/common-elements';
 import { Col, Row } from 'reactstrap';
 import Icon from "../assets/Icon.png";
@@ -8,20 +7,10 @@ import NavLink from './styling/nav-link';
 
 const Header = () => {
 
-    useEffect(() => {
-        WebFont.load({
-          google: {
-            families: ['Montserrat']
-          }
-        });
-       }, []);
-
     const getNavLink = (item, i) =>  {
 
         let active = false;
-        console.log(window.location.pathname);
         if (window.location.pathname === item.path) {
-            console.log(window.location);
             active = true;
         }
         return (

@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.font-face-montserrat {
+  font-family: "Montserrat";
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+  url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Arbutus_Slab";
+  src: local("Arbutus_Slab"),
+  url("./fonts/Arbutus_Slab/ArbutusSlab-Regular.ttf'") format("truetype");
+}
+
+p {
+  font-family: Montserrat;
+}
