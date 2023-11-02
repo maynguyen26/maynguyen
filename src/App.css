@@ -50,7 +50,7 @@
 @font-face {
   font-family: "Arbutus_Slab";
   src: local("Arbutus_Slab"),
-  url("./fonts/Arbutus_Slab/ArbutusSlab-Regular.ttf'") format("truetype");
+  url("/fonts/Arbutus_Slab/ArbutusSlab-Regular.ttf'") format("truetype");
 }
 
 p {

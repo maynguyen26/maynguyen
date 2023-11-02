@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
 export const Colors = {
-    primaryAccent: "#FF8181",
-    primaryAccentLight: "#FAECEC",
+    primaryAccent: "#574231",
+    primaryAccentLight: "#b1947c",
     primaryFont: "#575757",
+    primaryLightFont: "#F3EDE9",
+    primaryLight: "#f0e8e3",
+    primaryGrey: "#c7c7c7",
 }
 
 export const NavItems = {
-    home: {
-        path: "/",
-        title: "Home",
+    explore: {
+        path: "/explore",
+        title: "Explore",
     },
     about: {
         path: "/about",

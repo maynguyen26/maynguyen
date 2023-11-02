@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { Colors } from '../styling/common-elements';
 
-const NavLink = ({item, linkActive}) => {
+const NavLink = ({item, linkActive, style}) => {
 
     useEffect (( ) => {
         console.log(linkActive);
@@ -10,12 +10,10 @@ const NavLink = ({item, linkActive}) => {
 
     return (
         <>
-            <StyledDiv onClick={() => window.location = item.path}
-                        >
-                <NavTitle active={linkActive}>
+            <StyledDiv onClick={() => window.location = item.path} >
+                <NavTitle active={linkActive} style={style}>
                     {item.title}
                 </NavTitle>
-
             </StyledDiv>
         </>
 
@@ -50,9 +48,10 @@ const NavTitle = styled.p`
         transition: transform 0.5s ease;
     }
     &:hover::before {
-        transform: scaleX(0.75);
+        transform: ${props => props.style ? "" : "scaleX(0.75)"};
     }
     font-family: Montserrat;
-    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: ${props => props.style ? "${props.style.letterSpacing}" : "0.15em"};
     
 `

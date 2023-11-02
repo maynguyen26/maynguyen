@@ -8,7 +8,7 @@ import './fonts/Montserrat/Montserrat-VariableFont_wght.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
