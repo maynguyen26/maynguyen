@@ -16,7 +16,6 @@ const Experience = ( ) => {
                             This page is still being constructed! Come back on November 20th. :)
                         </p> 
                         
-
                     </Col>
                 </Row>
             </PageDiv>

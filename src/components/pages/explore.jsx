@@ -34,7 +34,14 @@ const Explore = () => {
                         </ButtonRow>
                     </ContentBox>
                     <CreditsRow>
-                        
+                        <CenterCol>
+                            <StyledP>
+                                Wesbite made by May Nguyen - very amateur web developer
+                            </StyledP>
+                            <StyledP>
+                                If you have any tips on how to make my website better, let me know!
+                            </StyledP>
+                        </CenterCol>
                     </CreditsRow>
                 </FloatBox>
                 <RightCol lg="12">
@@ -49,15 +56,28 @@ const Explore = () => {
 
 export default Explore;
 
+const StyledP = styled.p`
+    text-align: right;
+    color: ${Colors.primaryAccent};
+    font-size: 10px;
+    margin-bottom: 0px;
+`
+
+const CenterCol = styled(Col)`
+
+    display: inline-block;
+    justify-content: right;
+`
+
 const ButtonRow = styled(Row)`
     display: inline-block;
     margin-top: 20%;
 `
 const CreditsRow = styled(Row)`
-    display: inline-block;
+    display: flex;
     text-align: right;
     justify-content: right;
-    align-right;
+    margin-top: 10px;
 `
 const StyledLink = styled.a`
     font-size: 14px;
