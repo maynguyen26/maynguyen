@@ -64,7 +64,6 @@ const StyledP = styled.p`
 `
 
 const CenterCol = styled(Col)`
-
     display: inline-block;
     justify-content: right;
 `

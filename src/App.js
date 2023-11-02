@@ -10,6 +10,7 @@ import Home from './components/pages/home';
 import Explore from './components/pages/explore'
 import About from './components/pages/about';
 import Experience from './components/pages/experience';
+import Connect from './components/pages/connect';
 
 class App extends Component {
 
@@ -22,7 +23,7 @@ class App extends Component {
             <Route element={<Layout/>}>
               <Route path="/explore" element={<Explore/>}/>
               <Route path="/about" element={<About/>}/>
-              <Route path="/connect" element={<About/>}/>
+              <Route path="/connect" element={<Connect/>}/>
               <Route path="/experience" element={<Experience/>}/>
             </Route>
               <Route path="/" element={<Home/>}/>
