@@ -13,7 +13,7 @@ const Connect = ( ) => {
                 <Row style={{width: "80%"}}>
                     <Col style={{display: "flex", flexDirection: "column", alignItems: "center", width: "50%"}}>
                         <p style={{color: Colors.primaryAccentLight, textAlign: "center"}}>
-                            This page is still being constructed! Come back on November 20th. :)
+                            This page is still being constructed! Come back later. :)
                         </p> 
                     </Col>
                 </Row>

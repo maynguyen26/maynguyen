@@ -13,7 +13,7 @@ const About = ( ) => {
                 <Row style={{width: "80%"}}>
                     <Col style={{display: "flex", flexDirection: "column", alignItems: "center", width: "50%"}}>
                         <p style={{color: Colors.primaryAccentLight, textAlign: "center", marginBottom: "20px"}}>
-                            This page is still being constructed! Come back on November 20th. :)
+                            This page is still being constructed! Come back later :)
                         </p> 
                         <p style={{color: Colors.primaryAccent, textAlign: "center", fontSize: "14px", marginBottom: "0px"}}>
                             <b><ul style={{padding: "0px", marginBottom: "0px"}}>{Entries[0].project}</ul></b>
